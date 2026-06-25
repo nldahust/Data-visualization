@@ -17,7 +17,8 @@ margin = (
     profit / sales * 100
 )
 
-c1,c2,c3,c4,c5 = st.columns(5)
+c1,c2 = st.columns(2)
+c3,c4,c5 = st.columns(3)
 
 c1.metric(
     "Sales",
